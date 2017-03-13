@@ -6,6 +6,7 @@ public class ParameterNames {
         int x = 1;
         int y = 2;
         xyMinus(y, x);
+        xyMinus(x, y);
     }
 
     private static void xyMinus(int x, int y) {
